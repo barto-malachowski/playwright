@@ -11,7 +11,7 @@ street = "Radosna 1"
 postal_code = "10-100"
 city = "Warszawa"
 
-def test_add_to_cart_and_order(playwright):
+def test_4_add_to_cart_and_order(playwright):
 
     #Create the browser
     browser = playwright.chromium.launch(headless=False, slow_mo=1000)

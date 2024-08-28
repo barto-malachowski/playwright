@@ -4,7 +4,7 @@ from playwright.sync_api import sync_playwright, expect
 
 product_name = "Hantle żeliwne regulowane 2x10kg zestaw 20kg"
 
-def test_add_to_cart(playwright):
+def test_3_add_to_cart(playwright):
 
     #Create the browser
     browser = playwright.chromium.launch(headless=False, slow_mo=1000)

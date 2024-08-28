@@ -2,7 +2,7 @@ import time
 from playwright.sync_api import sync_playwright, expect
 
 
-def test_accept_cookie_policy(playwright):
+def test_2_accept_cookie_policy(playwright):
 
     #Create the browser
     browser = playwright.chromium.launch(headless=False, slow_mo=1000)
